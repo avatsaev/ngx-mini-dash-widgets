@@ -3,9 +3,10 @@ import {
   Component, EventEmitter, Input, OnChanges, OnDestroy, OnInit, Output,
   SimpleChanges
 } from '@angular/core';
-import {CryptoWidget, Widget} from '../../models/widget';
+
 import {timer} from 'rxjs/observable/timer';
 import {Subscription} from 'rxjs/Subscription';
+import {CryptoWidget, Widget} from '../../core/models/widget';
 
 @Component({
   selector: 'crypto-widget',

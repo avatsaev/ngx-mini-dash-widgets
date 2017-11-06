@@ -2,7 +2,7 @@ import * as uuid from 'uuid/v4';
 
 export interface Widget {
   readonly id: string;
-  readonly type: 'crypto' | 'weather';
+  readonly type: string;
 }
 
 

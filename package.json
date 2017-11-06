@@ -9,9 +9,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "link:lib": "npm run build:lib && cd dist/lib && npm link && cd ../../ && npm link @ngx-mini-dash/widgets",
-    "build:lib": "ng-packagr -p ng-package.json",
-    "publish:lib": "npm run build:lib && cd dist/lib && npm publish"
+    "lib:link": "npm run lib:build && cd dist/lib && npm link && cd ../../ && npm link @ngx-mini-dash/widgets",
+    "lib:build": "ng-packagr -p ng-package.json",
+    "lib:publish": "npm run build:lib && cd dist/lib && npm publish"
   },
   "private": true,
   "dependencies": {

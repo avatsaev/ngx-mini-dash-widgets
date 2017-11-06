@@ -1,8 +1,9 @@
 
 import {ChangeDetectionStrategy, Component, EventEmitter, Input, OnDestroy, OnInit, Output} from '@angular/core';
-import {WeatherWidget, Widget} from '../../models/widget';
+
 import {Subscription} from 'rxjs/Subscription';
 import {timer} from 'rxjs/observable/timer';
+import {WeatherWidget, Widget} from '../../core/models/widget';
 
 @Component({
   selector: 'weather-widget',
